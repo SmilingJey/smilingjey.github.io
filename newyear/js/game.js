@@ -213,14 +213,11 @@ function checkGameEnd() {
 }
 
 function drawWin() {
-  var win = checkGameEnd();
-  if (win) {
-    textSize(100);
-    fill('#002aff');
-    textSize(100);
-    var winText = 'YOU WIN!';
-    text(winText, playgroundWidth/2 - textWidth(winText)/2, palygroundHeight/2);
-  }
+  textSize(100);
+  fill('#002aff');
+  textSize(100);
+  var winText = 'YOU WIN!';
+  text(winText, playgroundWidth/2 - textWidth(winText)/2, palygroundHeight/2);
 }
 
 function draw() {
