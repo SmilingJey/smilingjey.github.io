@@ -36835,10 +36835,8 @@ function showPage(pageName) {
     statistic.updateCharts();
   }
 
-  console.log(pageName);
   const searchInputElement = document.querySelector(`.search__input`);
   if (pageName === `control__search`) {
-
     searchInputElement.classList.remove(`search__input--hidden`);
   } else {
     searchInputElement.classList.add(`search__input--hidden`);
